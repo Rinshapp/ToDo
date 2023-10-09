@@ -1,0 +1,93 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+   
+    .frame{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL2a5JyLXklgwSOXr-jVKGJhFMNLhlw9DuRA&usqp=CAU');
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .div1{
+    /* width: 350px;
+    height: 200px; */
+    padding: 20px;
+    background-color: rgba(246, 250, 246, 0.82);
+    border-radius: 10px;
+    /* padding-left: 40px;
+    padding-top: 30px; */
+}
+    img{
+    width: 40px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+    input{
+        margin-top: 30px;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 8px;
+        margin-bottom: 20px
+       
+    }
+    button{
+        padding: 10px 20px;
+        color: white;
+        background-color: rgb(57, 88, 228);
+        border: none;
+        border-radius: 8px;
+        margin-left: 10px;
+    }
+    p{
+    margin-top: 10px;
+    height: 40px;
+    /* background-color: rgba(173, 201, 173, 0.82); */
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    }
+    i{
+    margin-right: 6px;
+    margin-top: 12px;
+    font-size: 20px;
+    }
+    
+    span{
+    margin-left: 8px;
+    margin-top: 12px;
+    }
+h1{
+    text-align: center;
+    color: rgb(5, 5, 5);
+}
+label{
+    position: absolute;
+    right: 23px;
+    top: 0px;
+}
+.todo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.todo-footer button {
+
+    padding: 10px 20px;
+    border: 1px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+
